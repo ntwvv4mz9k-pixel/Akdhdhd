@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<title>ARENA CLASH</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<canvas id="c"></canvas>
+<div id="hud"></div>
+<div id="stick"><div id="knob"></div></div>
+<div id="btns">
+  <div class="btn" data-k="shot">SHOT</div>
+  <div class="btn" data-k="atk">SLASH</div>
+  <div class="btn" data-k="dash">DASH</div>
+</div>
+<div id="menu" class="ov">
+  <h1>ARENA CLASH</h1>
+  <p>最大4人 / 1台のiPadでローカル対戦<br>P1: タッチ・キーボード・パッド1 ／ P2〜4: Bluetoothパッド（未接続はCPU）</p>
+  <button id="start">START</button>
+</div>
+<div id="end" class="ov" style="display:none"><h1 id="win"></h1><p id="score"></p><button id="again">REMATCH</button></div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
